@@ -1,0 +1,34 @@
+{
+  "name": "react-native-alipay",
+  "version": "0.2.3",
+  "description": "Alipay SDK for React Native. Support RN >= 0.47.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@code.aliyun.com:gootile/react-native-alipay.git"
+  },
+  "keywords": [
+    "alipay",
+    "react-native"
+  ],
+  "author": "WangHao",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": ">=0.20"
+  },
+  "homepage": "https://code.aliyun.com/gootile/react-native-alipay",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^21.2.0",
+    "jest": "^21.2.1",
+    "query-string": "^5.0.0",
+    "react-native": "^0.20.0"
+  },
+  "dependencies": {
+    "buffer": "^5.0.8",
+    "jsrsasign": "^8.0.4"
+  }
+}
