@@ -63,7 +63,7 @@ public class AlipayModule extends ReactContextBaseJavaModule {
 
     @ReactMethod
     public void pay(String orderInfo, boolean showLoading, Promise promise) {
-        EnvUtils.setEnv(EnvUtils.EnvEnum.SANDBOX);//沙箱环境
+        // EnvUtils.setEnv(EnvUtils.EnvEnum.SANDBOX);//沙箱环境
         AsyncPayTask task = new AsyncPayTask();
         task.orderInfo = orderInfo;
         task.showLoading = showLoading;
